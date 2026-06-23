@@ -11,6 +11,7 @@ Prompt:
 Answer: 
 Zero-Shot Prompting.
 
+
 Exercise 2: Prompt Recognition
 Objective:
 Understand how a single example guides AI output.
@@ -27,6 +28,7 @@ Now answer: What is Prompt Engineering?”
 Answer:
 One-shot Prompting.
 
+
 Exercise 3: Choose the Correct Technique
 Objective:
 Apply the correct prompting method based on scenario.
@@ -39,6 +41,7 @@ You want AI to follow the same writing style every time while generating respons
 
 Answer:
 Few-Shot Prompting. Because,we give multiple examples in the promt which helps AI to follow the same writing style every time while generating responses.
+
 
 Exercise 4: One-Shot Prompt Creation
 Objective:
@@ -61,6 +64,7 @@ Customer Complaint:
 "I was charged twice for my subscription this month. Please fix this issue immediately."
 Response:
 
+
 Exercise 5 : Rewrite Using Correct Technique
 Objective:
 Apply prompt techniques in practice.
@@ -82,6 +86,7 @@ Your task is to write a response to a customer complaint that:
 Customer Complaint:
 "I was charged twice for my subscription this month. Please fix this issue immediately."
 Response:
+
 
 Exercise 6: True or False (Concept Trap)
 Objective:
@@ -112,6 +117,7 @@ Now rewrite the following message:
 Input: "Send this now."
 Output:
 
+
 Exercise 7 : Prompt Comparison
 Objective:
 Understand how clarity affects AI responses.
@@ -136,7 +142,8 @@ Target audience (young professionals)
 
 This additional context helps the AI generate a more relevant, focused, and useful product description. In contrast, Prompt A is too vague and may result in a generic response.
 
-Exercise 8 : Technique Selection (Tricky)
+
+Exercise 8: Technique Selection (Tricky)
 Objective:
 Test understanding of when to use each technique.
 Task:
@@ -151,7 +158,8 @@ Correct Technique: Few-Shot Prompting
 Reasoning:
 Few-shot prompting is the best choice when you want the AI to consistently follow the same writing style across multiple outputs. By providing several examples of the desired style, tone, and format, the AI can identify patterns and replicate them more accurately in future responses.
 
-Exercise 9 : Bonus Challenge
+
+Exercise 9: Bonus Challenge
 Objective : You are unsure which technique to use.
 
 Rule-based Question:
