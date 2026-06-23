@@ -72,7 +72,7 @@ Task:
 Rewrite the prompt using an appropriate technique.
 
 Answer:
-Since the original prompt already uses One-Shot Prompting, a good rewrite would be to apply Role Prompting + Structured Instructions for clearer guidance.
+Since the original prompt already uses One-Shot Prompting, a good rewrite would be to apply Role + Structured Instructions for clearer guidance.
 Rewritten Prompt:
 You are an experienced customer support representative.
 Your task is to write a response to a customer complaint that:
