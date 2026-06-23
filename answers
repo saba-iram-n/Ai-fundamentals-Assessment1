@@ -1,0 +1,173 @@
+Exercise 1: Identify the Prompt Technique
+Objective:
+Check understanding of different prompt techniques.
+Task:
+Determine which prompt technique is being used.
+Instruction:
+Read the prompt below and identify the technique applied.
+Prompt:
+“Summarize the following paragraph in one sentence.”
+
+Answer: 
+Zero-Shot Prompting.
+
+Exercise 2: Prompt Recognition
+Objective:
+Understand how a single example guides AI output.
+Task:
+Identify the prompt technique used.
+Instruction:
+Analyze the prompt below and name the technique.
+Prompt:
+“Example:
+Question: What is AI?
+Answer: AI refers to machines that can perform tasks requiring human intelligence.
+Now answer: What is Prompt Engineering?”
+
+Answer:
+One-shot Prompting.
+
+Exercise 3: Choose the Correct Technique
+Objective:
+Apply the correct prompting method based on scenario.
+Task:
+Select the most suitable prompt technique.
+Instruction:
+Read the scenario and choose the correct technique.
+Scenario:
+You want AI to follow the same writing style every time while generating responses.
+
+Answer:
+Few-Shot Prompting. Because,we give multiple examples in the promt which helps AI to follow the same writing style every time while generating responses.
+
+Exercise 4: One-Shot Prompt Creation
+Objective:
+Practice writing a one-shot prompt.
+Task:
+Create a prompt using exactly one example.
+Instruction:
+Write a one-shot prompt to generate a polite response for a customer complaint, using
+one example response to guide tone.
+
+Answer:
+You are a customer support assistant. Generate a polite and professional response to customer complaints.
+Example:
+Customer Complaint:
+"I ordered my package two weeks ago, but it still hasn't arrived. This is very frustrating."
+Response:
+"Dear Customer, we sincerely apologize for the delay in delivering your package. We understand how frustrating this situation must be and appreciate your patience. Our team is currently investigating the issue and will provide you with an update as soon as possible. Thank you for bringing this to our attention."
+Now respond to the following complaint:
+Customer Complaint:
+"I was charged twice for my subscription this month. Please fix this issue immediately."
+Response:
+
+Exercise 5 : Rewrite Using Correct Technique
+Objective:
+Apply prompt techniques in practice.
+Task:
+Rewrite the prompt using an appropriate technique.
+
+Answer:
+Since the original prompt already uses One-Shot Prompting, a good rewrite would be to apply Role Prompting + Structured Instructions for clearer guidance.
+Rewritten Prompt:
+You are an experienced customer support representative.
+Your task is to write a response to a customer complaint that:
+
+* Is polite and professional
+* Acknowledges the customer's frustration
+* Apologizes for the inconvenience
+* Explains that the issue will be investigated or resolved
+* Ends with a courteous closing
+
+Customer Complaint:
+"I was charged twice for my subscription this month. Please fix this issue immediately."
+Response:
+
+Exercise 6: True or False (Concept Trap)
+Objective:
+Check conceptual clarity.
+Task:
+Evaluate the statement.
+Instruction:
+Mark the statement as True or False and justify your answer.
+Statement:
+“Few-shot prompting is used when the task is very simple and well-known.”
+
+Answer: False
+Explanation:
+Few-shot prompting is typically used when a task is more complex, nuanced, or requires a specific format or style. By providing multiple examples, the model can better understand the desired pattern. For very simple and well-known tasks, zero-shot prompting is often sufficient because the model already knows how to perform them without examples.
+
+Instruction:
+Improve the prompt below by choosing the correct technique (Zero-Shot, One-Shot, or
+Few-Shot).
+Prompt:
+“Make this sound professional: ‘Send this now.’”
+
+Answer:
+Rewrite informal messages to sound professional.
+Example:
+Input: "Fix this today."
+Output: "Could you please address this issue by the end of today?"
+Now rewrite the following message:
+Input: "Send this now."
+Output:
+
+Exercise 7 : Prompt Comparison
+Objective:
+Understand how clarity affects AI responses.
+Task:
+Evaluate two prompts.
+Instruction:
+Compare the prompts below and identify which one will give better output.
+Prompt A:
+“Write a product description.”
+Prompt B:
+“Write a 3-sentence product description for a budgeting app targeting young
+professionals.”
+
+Answer:
+Prompt B
+Explanation:
+Prompt B will produce a better output because it provides clear instructions about:
+
+Length (3 sentences)
+Product type (budgeting app)
+Target audience (young professionals)
+
+This additional context helps the AI generate a more relevant, focused, and useful product description. In contrast, Prompt A is too vague and may result in a generic response.
+
+Exercise 8 : Technique Selection (Tricky)
+Objective:
+Test understanding of when to use each technique.
+Task:
+Select the correct prompt technique.
+Instruction:
+Scenario: You want AI to consistently follow the same writing style across multiple
+outputs.
+Choose the best technique and explain why.
+
+Answer:
+Correct Technique: Few-Shot Prompting
+Reasoning:
+Few-shot prompting is the best choice when you want the AI to consistently follow the same writing style across multiple outputs. By providing several examples of the desired style, tone, and format, the AI can identify patterns and replicate them more accurately in future responses.
+
+Exercise 9 : Bonus Challenge
+Objective : You are unsure which technique to use.
+
+Rule-based Question:
+Fill in the blanks:
+ Simple task, no examples → __Zero Shot____ prompting
+ One example to guide style → ___One Shot___ prompting
+ Multiple examples to train pattern → __Few Shot____ prompting
+
+
+
+
+
+
+
+
+
+
+
+
